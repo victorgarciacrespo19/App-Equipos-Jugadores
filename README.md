@@ -1,4 +1,4 @@
-# Gestión de Equipos y Jugadores (Trabajo 2 - DASI)
+# Gestión de Equipos y Jugadores (DASI)
 
 Este proyecto académico es un sistema basado en **microservicios** desarrollado con **Java 21**, **Maven** y el framework **Quarkus**. Su objetivo principal es la gestión de equipos deportivos, jugadores y los contratos que los vinculan.
 

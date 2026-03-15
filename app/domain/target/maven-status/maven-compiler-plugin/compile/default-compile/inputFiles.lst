@@ -1,0 +1,17 @@
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/aggregators/EquipoWithContratos.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/aggregators/JugadorEquipo.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/dtos/ContratoDto.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/dtos/EquipoDto.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/dtos/ErrorDto.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/dtos/JugadorDto.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/entities/Contrato.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/entities/Equipo.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/entities/Jugador.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/ContratoNotFoundAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/EquipoNotFoundAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/EquiposAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/JugadorNotFoundAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/NotFoundAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/RestClientAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/exceptions/SQLEquiposAppException.java
+/Users/administrador/IdeaProjects/DASI/trabajo2/domain/src/main/java/es/upsa/dasi/trabajo1/domain/mappers/Mappers.java

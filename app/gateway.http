@@ -1,0 +1,102 @@
+### GET /equipos
+GET http://localhost:8085/equipos
+Accept: application/json
+
+### GET /equipos/{id}
+GET http://localhost:8085/equipos/1
+Accept: application/json
+
+###POST /equipos
+POST http://localhost:8085/equipos
+Accept: application/json
+Content-Type: application/json
+
+{
+  "nombre": "Leganes",
+  "ciudad": "Leganes",
+  "estadio": "Estadio Municipal Butarque",
+  "fundacion": "1928",
+  "presupuesto": 41000000,
+  "escudo": "logo leganes"
+}
+
+###PUT /equipos/{id}
+PUT http://localhost:8085/equipos/12
+Accept: application/json
+Content-Type: application/json
+
+{
+  "nombre": "Leganes",
+  "ciudad": "Madrid",
+  "estadio": "Estadio Municipal Butarque",
+  "fundacion": "1927",
+  "presupuesto": 41000000,
+  "escudo": "logo leganes"
+}
+
+###DELETE /equipos/{id}
+DELETE http://localhost:8085/equipos/6
+
+
+
+
+### GET /jugador
+GET http://localhost:8085/jugadores
+Accept: application/json
+
+### GET /jugador/{id}
+GET http://localhost:8085/jugadores/3
+Accept: application/json
+
+###POST /jugador
+POST http://localhost:8085/jugadores
+Accept: application/json
+Content-Type: application/json
+
+{
+  "nombre": "Isi Palazon",
+  "nacionalidad": "España",
+  "valorMercado": "2M",
+  "foto": "foto isi"
+}
+
+###PUT /jugador/{id}
+PUT http://localhost:8085/jugadores/9
+Content-Type: application/json
+
+{
+  "nombre": "Isi Palazon Camacho",
+  "nacionalidad": "España",
+  "valorMercado": "56M",
+  "foto": "foto isi"
+}
+
+###DELETE /jugador/{id}
+DELETE http://localhost:8085/jugadores/9
+
+
+
+
+
+### GET /contratos/equipos/{id}
+GET http://localhost:8085/contratos/equipos/3
+Accept: application/json
+
+### GET /contratos/{id}
+GET http://localhost:8085/contratos/5
+Accept: application/json
+
+
+### POST /contratos/
+POST http://localhost:8085/contratos
+Content-Type: application/json
+Accept: application/json
+
+{
+  "equipo": "5",
+  "jugador": "7",
+  "finContrato": "2029"
+}
+
+### DELETE /contratos/{id}
+DELETE http://localhost:8085/contratos/37

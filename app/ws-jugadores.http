@@ -1,0 +1,34 @@
+### GET /jugadores
+GET http://localhost:8083/jugadores
+Accept: application/json
+
+### GET /jugadores/{id}
+GET http://localhost:8083/jugadores/6
+Accept: application/json
+
+### POST /jugadores
+POST http://localhost:8083/jugadores
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nombre": "Isi Palazon",
+    "nacionalidad": "España",
+    "valorMercado": "2M",
+    "foto": "foto isi"
+}
+
+### PUT /jugadores/{id}
+PUT http://localhost:8083/jugadores/6
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Isi Palazon Camacho",
+  "nacionalidad": "España",
+  "valorMercado": "56M",
+  "foto": "foto isi"
+}
+
+### DELETE /jugadores/{id}
+DELETE http://localhost:8083/jugadores/9
